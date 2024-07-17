@@ -7,7 +7,7 @@ interface EmailTemplateProps {
 export const EmailTemplate: React.FC<Readonly<EmailTemplateProps>> = ({
   firstName,
 }) => (
-  <div>
+    <div>
     <h1>Welcome, {firstName}!</h1>
   </div>
 );
